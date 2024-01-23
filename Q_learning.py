@@ -74,7 +74,7 @@ if __name__ == "__main__":
             print("EPSILON: " + str(EPSILON) )
     
     
-    #### DO NOT MODIFY ######
+    
     model_file = open('Q_TABLE.pkl' ,'wb')
     pickle.dump([Q_table,EPSILON],model_file)
     model_file.close()
