@@ -64,8 +64,6 @@ if __name__ == "__main__":
         # Decrement EPSILON
         EPSILON *= EPSILON_DECAY
 
-
-        
         # YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE
         ##########################################################
 
