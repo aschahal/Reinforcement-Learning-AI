@@ -73,8 +73,6 @@ if __name__ == "__main__":
             print("LAST 100 EPISODE AVERAGE REWARD: " + str(sum(list(episode_reward_record))/100))
             print("EPSILON: " + str(EPSILON) )
     
-    
-    
     model_file = open('Q_TABLE.pkl' ,'wb')
     pickle.dump([Q_table,EPSILON],model_file)
     model_file.close()
