@@ -25,7 +25,7 @@ if __name__ == "__main__":
     env.seed(1)
     env.action_space.np_random.seed(1)
 
-    # Update the Q_table in your iteration
+    # Update the Q_table for your iteration
     Q_table = defaultdict(default_Q_value) # starts with a pessimistic estimate of zero reward for each state.
     episode_reward_record = deque(maxlen=100)
 
