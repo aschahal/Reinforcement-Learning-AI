@@ -35,7 +35,7 @@ if __name__ == "__main__":
         obs = env.reset()
 
         ##########################################################
-        # YOU DO NOT NEED TO CHANGE ANYTHING ABOVE THIS LINE
+        # Q LEARNING ALGORITHM
 
         while not done:
             # Epsilon-greedy policy
