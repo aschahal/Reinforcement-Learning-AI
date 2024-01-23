@@ -36,7 +36,6 @@ if __name__ == "__main__":
 
         ##########################################################
         # YOU DO NOT NEED TO CHANGE ANYTHING ABOVE THIS LINE
-        # TODO: Replace the following with Q-Learning
 
         while not done:
             # Epsilon-greedy policy
